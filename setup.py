@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name="dask",
@@ -24,5 +24,6 @@ setup(
         # conditional dependency
         "importlib_metadata >= 4.13.0",
     ],
+    packages=find_packages(),
     version="2023.0.1",
 )
