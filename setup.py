@@ -2,7 +2,6 @@
 
 from __future__ import annotations
 
-import versioneer
 from setuptools import setup
 
 setup(
@@ -25,6 +24,5 @@ setup(
         # conditional dependency
         "importlib_metadata >= 4.13.0",
     ],
-    version=versioneer.get_version(),
-    cmdclass=versioneer.get_cmdclass(),
+    version="2023.0.1",
 )
